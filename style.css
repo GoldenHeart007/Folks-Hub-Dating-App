@@ -113,6 +113,11 @@ form button {
     cursor: pointer;
 }
 
+.content {
+  padding-bottom: 80px; /* adjust height as needed */
+}
+
+
 
 
 footer {
