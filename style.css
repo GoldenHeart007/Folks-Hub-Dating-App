@@ -1,9 +1,23 @@
-body {
-    font-family: Arial, sans-serif;
+/* Ensure full height and reset margin/padding on html */
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #f9f9f9;
+}
+
+/* Use flexbox layout on body to push footer down */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Make main content grow to fill available space */
+main {
+    flex: 1;
 }
 
 header {
@@ -118,4 +132,5 @@ footer {
     padding: 20px;
     background-color: #333;
     color: #fff;
+    margin: 0; /* prevent extra margin below */
 }
