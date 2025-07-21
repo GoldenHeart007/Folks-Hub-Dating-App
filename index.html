@@ -1,57 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Folks Hub Dating App</title>
+  <meta charset="UTF-8" />
+  <title>Folks Hub Dating App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="/titlebarimage1.png" type="image/x-icon" />
 
-<link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" href="/titlebarimage1.png" type="image/x-icon">
-  
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VK6HM44SZR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-VK6HM44SZR');
-</script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK6HM44SZR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-VK6HM44SZR');
+  </script>
+
+  <style>
+    /* Add this to your style.css or inline like below */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    footer {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #28a745;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 
-  
-
 <body>
-<header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="features.html">Features</a></li>
-      <li><a href="users.html">Users</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="privacy-policy.html">Privacy Policy</a></li>
-    </ul>
-  </nav>
-</header>
+  <div class="content">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="users.html">Users</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  
-
-<section id="home">
-  <div class="hero">
-    <h1>Find Your Date, Connect and Chat With Them Via WhatsApp...</h1>
-    <h2>It's better on the mobile application. COMING SOON!...</h2>
-    <a href="https://folks-hub-dating.vercel.app/FolksHubDatingApp.apk" class="btn">Download Here</a>
+    <section id="home">
+      <div class="hero">
+        <h1>Find Your Date, Connect and Chat With Them Via WhatsApp...</h1>
+        <h2>It's better on the mobile application. COMING SOON!...</h2>
+        <a href="https://folks-hub-dating.vercel.app/FolksHubDatingApp.apk" class="btn">Download Here</a>
+      </div>
+    </section>
   </div>
-</section>
 
-
-  
-<footer>
-  <p>&copy; 2022 Folks Hub. All rights reserved.
-     
-  </p>
-</footer>
-
-
-  
+  <footer>
+    <p>&copy; 2022 Folks Hub | All rights reserved.</p>
+  </footer>
 </body>
 </html>
