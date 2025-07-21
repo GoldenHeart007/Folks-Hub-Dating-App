@@ -1,23 +1,130 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Folks Hub Dating App</title>
+  <meta charset="UTF-8">
+  <title>Folks Hub Dating App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/titlebarimage1.png" type="image/x-icon">
 
-<link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" href="/titlebarimage1.png" type="image/x-icon">
-  
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VK6HM44SZR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-VK6HM44SZR');
-</script>
+  <!-- Embedded CSS to fine-tune styling -->
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #6c63ff;
+      padding: 15px 0;
+      color: white;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .content h1 {
+      color: #6c63ff;
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+
+    .content h2 {
+      color: #444;
+      border-bottom: 2px solid #6c63ff;
+      padding-bottom: 6px;
+      margin-top: 35px;
+    }
+
+    .content ul {
+      padding-left: 20px;
+    }
+
+    .content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    .content table, .content th, .content td {
+      border: 1px solid #ccc;
+    }
+
+    .content th, .content td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    .content th {
+      background-color: #6c63ff;
+      color: white;
+    }
+
+    .content tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .spacer {
+      height: 100px;
+    }
+
+    footer {
+      background-color: #6c63ff;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      position: sticky;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    a {
+      color: #6c63ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK6HM44SZR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VK6HM44SZR');
+  </script>
 </head>
-
-  
 
 <body>
 <header>
@@ -28,78 +135,95 @@
       <li><a href="features.html">Features</a></li>
       <li><a href="users.html">Users</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="privacy-policy.html">Privacy Policy</a></li>
     </ul>
   </nav>
 </header>
 
-  <div class="content">
-    <h1>Privacy Policy</h1>
-    <p>Last updated: 01 September 2025</p>
+<div class="content">
+  <h1>Privacy Policy</h1>
+  <p><em>Last updated: 01 September 2025</em></p>
 
-    <h2>1. Who we are</h2>
-    <p><strong>Folks Hub</strong> (“we”, “our”, “us”) is a social‑matching service that helps people connect and chat...</p>
+  <h2>1. Who we are</h2>
+  <p><strong>Folks Hub</strong> (“we”, “our”, “us”) is a social‑matching service that helps people connect and chat...</p>
 
-    <h2>2. Information we collect</h2>
-    <ul>
-      <li><strong>Account data</strong> – email address, password (hashed), Firebase UID.</li>
-      <li><strong>Profile data</strong> – photos, age, gender, city &amp; country, etc.</li>
-      <li><strong>Usage data</strong> – swipes, likes, favourites, messages sent/received.</li>
-      <li><strong>Device data</strong> – IP address, device model, OS version, etc.</li>
-      <li><strong>Push‑notification token</strong> (FCM) so we can deliver match alerts.</li>
-    </ul>
+  <h2>2. Information we collect</h2>
+  <ul>
+    <li><strong>Account data</strong> – email address, password (hashed), Firebase UID.</li>
+    <li><strong>Profile data</strong> – photos, age, gender, city &amp; country, etc.</li>
+    <li><strong>Usage data</strong> – swipes, likes, favourites, messages sent/received.</li>
+    <li><strong>Device data</strong> – IP address, device model, OS version, etc.</li>
+    <li><strong>Push‑notification token</strong> (FCM) so we can deliver match alerts.</li>
+  </ul>
 
-    <h2>3. How we use your information</h2>
-    <ul>
-      <li>Display your profile to others and match you accordingly.</li>
-      <li>Enable core features like chat and favorites.</li>
-      <li>Detect spam and secure accounts.</li>
-      <li>Show ads using Google AdMob based on your consent.</li>
-      <li>Improve product features via Firebase analytics.</li>
-    </ul>
+  <h2>3. How we use your information</h2>
+  <ul>
+    <li>Display your profile to others and match you accordingly.</li>
+    <li>Enable core features like chat and favorites.</li>
+    <li>Detect spam and secure accounts.</li>
+    <li>Show ads using Google AdMob based on your consent.</li>
+    <li>Improve product features via Firebase analytics.</li>
+  </ul>
 
-    <h2>4. Legal bases</h2>
-    <p>We process data under contract, legitimate interest, or consent as applicable.</p>
+  <h2>4. Legal bases</h2>
+  <p>We process data under contract, legitimate interest, or consent as applicable.</p>
 
-    <h2>5. Sharing &amp; third‑party services</h2>
-    <table>
-      <tr><th>Partner</th><th>Purpose</th><th>Data shared</th></tr>
-      <tr><td>Firebase</td><td>Auth, profiles, chats</td><td>Account/profile</td></tr>
-      <tr><td>AdMob</td><td>Ads</td><td>Device &amp; ad ID</td></tr>
-      <tr><td>Google Play Services</td><td>Anti-fraud</td><td>Device verdict</td></tr>
-    </table>
+  <h2>5. Sharing &amp; third‑party services</h2>
+  <table>
+    <tr>
+      <th>Partner</th>
+      <th>Purpose</th>
+      <th>Data Shared</th>
+    </tr>
+    <tr>
+      <td>Firebase</td>
+      <td>Auth, profiles, chats</td>
+      <td>Account/profile</td>
+    </tr>
+    <tr>
+      <td>AdMob</td>
+      <td>Ads</td>
+      <td>Device &amp; ad ID</td>
+    </tr>
+    <tr>
+      <td>Google Play Services</td>
+      <td>Anti-fraud</td>
+      <td>Device verdict</td>
+    </tr>
+  </table>
 
-    <h2>6. Data retention</h2>
-    <ul>
-      <li>Profiles: until deleted or 24 months inactive.</li>
-      <li>Logs: up to 12 months.</li>
-      <li>Ad data: per Google (usually 13 months).</li>
-    </ul>
+  <h2>6. Data retention</h2>
+  <ul>
+    <li>Profiles: until deleted or 24 months inactive.</li>
+    <li>Logs: up to 12 months.</li>
+    <li>Ad data: per Google (usually 13 months).</li>
+  </ul>
 
-    <h2>7. Your rights</h2>
-    <ul>
-      <li>Edit your profile anytime in the app.</li>
-      <li>Delete your account via the app.</li>
-      <li>Email us to request delete data.</li>
-    </ul>
+  <h2>7. Your rights</h2>
+  <ul>
+    <li>Edit your profile anytime in the app.</li>
+    <li>Delete your account via the app.</li>
+    <li>Email us to request delete data.</li>
+  </ul>
 
-    <h2>8. Children</h2>
-    <p>Folks Hub is for users 18+. We do not knowingly collect data from minors.</p>
+  <h2>8. Children</h2>
+  <p>Folks Hub is for users 18+. We do not knowingly collect data from minors.</p>
 
-    <h2>9. Security</h2>
-    <p>We use HTTPS, Google Cloud, and Firebase App Check to protect your data.</p>
+  <h2>9. Security</h2>
+  <p>We use HTTPS, Google Cloud, and Firebase App Check to protect your data.</p>
 
-    <h2>10. Changes to this policy</h2>
-    <p>We may update this policy. Major changes may be announced in-app or by email.</p>
+  <h2>10. Changes to this policy</h2>
+  <p>We may update this policy. Major changes may be announced in-app or by email.</p>
 
-    <h2>11. Contact us</h2>
-    <p>Email: <a href="mailto:privacy@folks-hub.com">privacy@folks-hub.com</a></p>
+  <h2>11. Contact us</h2>
+  <p>Email: <a href="mailto:privacy@folks-hub.com">privacy@folks-hub.com</a></p>
 
-    <div class="spacer"></div>
-  </div>
+  <div class="spacer"></div>
+</div>
 
-  <footer>
-    <p>&copy; 2022 Folks Hub | All rights reserved.</p>
-  </footer>
+<footer>
+  <p>&copy; 2025 Folks Hub | All rights reserved.</p>
+</footer>
+
 </body>
 </html>
