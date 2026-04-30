@@ -22,13 +22,25 @@
     }
 
     nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 0;
-      margin: 0;
-    }
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* prevents ugly break */
+  gap: 12px;
+  padding: 0 10px;
+  margin: 0;
+}
+
+nav li {
+  white-space: nowrap; /* keeps each link intact */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 20px;
+}
 
     nav a {
       color: white;
@@ -126,7 +138,7 @@
       <li><a href="contact.html">Contact</a></li>
       <li><a href="terms-of-service.html">Terms</a></li>
       <li><a href="privacy-policy.html">Privacy</a></li>
-      <li><a href="delete-account.html">Delete account</a></li>
+      <li><a href="delete-account.html">Delete Account</a></li>
       
     </ul>
   </nav>
