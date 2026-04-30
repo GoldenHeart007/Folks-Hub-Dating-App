@@ -1,55 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Delete Account - Folks Hub</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Delete Account – Folks Hub Dating App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/titlebarimage1.png" type="image/x-icon">
+
+  <style>
+    body {
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff4081;
+      padding: 15px 0;
+      color: white;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav li {
+      white-space: nowrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 6px 10px;
+      border-radius: 20px;
+    }
+
+    nav a:hover {
+      background-color: rgba(255,255,255,0.2);
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .content h1 {
+      color: #ff4081;
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+
+    .content h2 {
+      color: #444;
+      border-bottom: 2px solid #ff4081;
+      padding-bottom: 6px;
+      margin-top: 35px;
+    }
+
+    .content ul {
+      padding-left: 20px;
+    }
+
+    .highlight {
+      background: #ffe4ec;
+      padding: 15px;
+      border-left: 4px solid #ff4081;
+      margin-top: 20px;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    a {
+      color: #ff4081;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Highlight delete account in nav */
+    nav a[href="delete-account.html"] {
+      background-color: white;
+      color: #ff4081;
+      font-weight: bold;
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="privacy-policy.html">Privacy</a></li>
-</ul>
-</nav>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="users.html">Users</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="terms-of-service.html">Terms</a></li>
+      <li><a href="privacy-policy.html">Privacy</a></li>
+      <li><a href="delete-account.html">Delete Account</a></li>
+    </ul>
+  </nav>
 </header>
 
 <div class="content">
 
-<h1>Account & Data Deletion</h1>
+  <h1>Delete Account</h1>
+  <p><em>Last updated: 30 April 2026</em></p>
 
-<p>
-You can request deletion of your Folks Hub account and all associated data at any time.
-</p>
+  <div class="highlight">
+    <strong>Important:</strong> Once your account is deleted, all your data will be permanently removed and cannot be recovered.
+  </div>
 
-<h2>How to delete your account</h2>
+  <h2>How to delete your account</h2>
+  <ul>
+    <li>Open the Folks Hub app</li>
+    <li>Go to Settings</li>
+    <li>Select “Delete Account”</li>
+    <li>Confirm your request</li>
+  </ul>
 
-<ul>
-<li>Send an email to: <strong>g.a.t.folkshub.developers@gmail.com</strong></li>
-<li>Subject: <strong>Account Deletion Request</strong></li>
-<li>Include your registered email or user ID</li>
-</ul>
+  <h2>Alternative deletion request</h2>
+  <p>
+    If you cannot access the app, you can request deletion via email:
+  </p>
+  <p>
+    Email: <a href="mailto:privacy@folks-hub.com">privacy@folks-hub.com</a><br>
+    Subject: Account Deletion Request
+  </p>
 
-<h2>What will be deleted</h2>
-<ul>
-<li>Profile information</li>
-<li>Photos</li>
-<li>Matches and interactions</li>
-<li>Account data stored in our database</li>
-</ul>
+  <h2>What will be deleted</h2>
+  <ul>
+    <li>Profile information</li>
+    <li>Photos and uploads</li>
+    <li>Matches and interactions</li>
+    <li>Account and authentication data</li>
+  </ul>
 
-<h2>Processing time</h2>
-<p>
-Deletion requests are processed within 7–30 days depending on backups and legal requirements.
-</p>
+  <h2>Processing time</h2>
+  <p>
+    Deletion requests are processed within 7–30 days depending on system backups and legal requirements.
+  </p>
 
 </div>
 
 <footer>
-<p>&copy; 2022 Folks Hub</p>
+  <p>&copy; 2022 Folks Hub | All rights reserved.</p>
 </footer>
 
 </body>
