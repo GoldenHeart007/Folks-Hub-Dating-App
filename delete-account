@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Delete Account - Folks Hub</title>
+</head>
+<body style="font-family: Arial; padding: 20px; line-height: 1.6;">
+
+  <h1>Account & Data Deletion Request</h1>
+
+  <p>
+    If you would like to delete your <strong>Folks Hub</strong> account and all associated data,
+    please follow the instructions below.
+  </p>
+
+  <h2>How to request deletion</h2>
+
+  <ul>
+    <li>Send an email to: <strong>g.a.t.folkshub.developers@gmail.com</strong></li>
+    <li>Use the subject: <strong>Account Deletion Request</strong></li>
+    <li>Include your registered email or user ID</li>
+  </ul>
+
+  <h2>What will be deleted</h2>
+  <ul>
+    <li>Your profile information</li>
+    <li>Your photos</li>
+    <li>Your matches and interactions</li>
+    <li>Your account data stored in our systems</li>
+  </ul>
+
+  <h2>Processing time</h2>
+  <p>
+    Deletion requests are processed within 7–30 days depending on system backups and legal requirements.
+  </p>
+
+</body>
+</html>
